@@ -1,0 +1,19 @@
+logger:
+  savePath: 'log'
+  maxSize: 5
+  maxAge: 400
+  maxBackups: 1000
+  isCompress: true
+  logLevel: 'debug'
+database:
+  mysql:
+    addr: xxx
+    port: 3306
+    username: root
+    password: 'password'
+    db: zhihu
+    charset: utf8mb4
+    connMaxIdleTime: '180s'
+    connMaxLifeTime: '1800s'
+    maxIdleConns: 100
+    maxOpenConns: 500
